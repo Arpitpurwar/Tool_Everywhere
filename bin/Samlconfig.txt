@@ -1,0 +1,52 @@
+mellon_create_metadata.sh https://tactools.w3ibm.mybluemix.net/ https://tactools.w3ibm.mybluemix.net/login/callback
+
+
+
+
+Private key:               https_tactools.w3ibm.mybluemix.net_.key
+Certificate:               https_tactools.w3ibm.mybluemix.net_.cert
+Metadata:                  https_tactools.w3ibm.mybluemix.net_.xml
+Host:                      tactools.w3ibm.mybluemix.net
+
+Endpoints:
+SingleLogoutService:       https://tactools.w3ibm.mybluemix.net/login/callback/logout
+AssertionConsumerService:  https://tactools.w3ibm.mybluemix.net/login/callback/postResponse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SAML Information for SP Setup
+
+Use this information to complete your SP setup
+
+Partner ID:
+https://tactools.w3ibm.mybluemix.net/
+
+Issuer:
+https://w3id.alpha.sso.ibm.com/auth/sps/samlidp2/saml20
+
+IDP-Initiated Login URL:
+https://w3id.alpha.sso.ibm.com/auth/sps/samlidp2/saml20/logininitial?RequestBinding=HTTPPost&PartnerId=https://tactools.w3ibm.mybluemix.net/&NameIdFormat=email&Target=https://tactools.w3ibm.mybluemix.net/
+
+SP-Initiated Login URL:
+https://w3id.alpha.sso.ibm.com/auth/sps/samlidp2/saml20/login
+
+ACS HTTP Post:
+https://tactools.w3ibm.mybluemix.net/login/callback/postResponse 
+
+
+
+

@@ -1,0 +1,41 @@
+
+<EntityDescriptor entityID="https://tactools.mybluemix.net/" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+    <KeyDescriptor use="signing">
+
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+
+        <ds:X509Data>
+
+          <ds:X509Certificate>MIICyTCCAbECFAqTJg9QxKzV05x8o+mDc2WsEgSYMA0GCSqGSIb3DQEBCwUAMCEx
+HzAdBgNVBAMMFnRhY3Rvb2xzLm15Ymx1ZW1peC5uZXQwHhcNMTkwODE2MDYzMDM4
+WhcNMjkwODE1MDYzMDM4WjAhMR8wHQYDVQQDDBZ0YWN0b29scy5teWJsdWVtaXgu
+bmV0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxWtYXYELG8zEHvfX
+EUEic3548VDZYTcKglIvlZf3BH2EJSO7cHQIjhlaAyUCeuEZAx6AdNk9xnTwR+hV
++MlbM/dWoSxzdu3FTgrsxY7Fmm57Elx5aZJmHdn6ldrZiRfoMn5OsKYEjR04sA+7
+IRGtIXxqmrqZPgpL62UqMeG1Y2CkDcuFUy2uPPUmeNSPTLLD9Qu/6qxKT64RB4ge
+o6eA1zGOZgu6+U833CylwK8wqIaJbFcmnPYFQWpyGEAHuYILX0TNIkBkc8jacZVU
+j95ZFXwMmcU+1rzLBCKeF+4ZLtiLVzebamJvCs3SB9W+tfOJMGWJt1kjDDNmBjdA
+p35YtQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBKPy660PcuzZz3QrLK/aHoFFZK
+a5QpCFXbmRTngGiw78sm1geDG1Lc5pK9jN5RvOfNgrMkkAfLd0xg4Ew0R9EXgAir
+7unQryXF8Lr7hr0NnNGtE00L6t/WL/u1PwaCSpI4QExuGU+5AKLxztOVcEoA++Kx
+1sZCpbWHsm7NNxVkgRJR5K/aii8ROg9bOdts6fdmgAE0XFIAiiQVLdGD2TrIYQPr
+3AH2lH9ytohtmUKBvdmt8wVOmN/sHp7zvZ2hmol5vB8xk4RYbRwI1q+/5H4fXCbC
+yC0Ro623U7IahTMuxIwUDQ7X4+qfEmzpxRm8ZnNACfcXMxqYaK02zFBO++jP</ds:X509Certificate>
+
+        </ds:X509Data>
+
+      </ds:KeyInfo>
+
+    </KeyDescriptor>
+
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://tactools.mybluemix.net/login/callback/logout"/>
+
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://tactools.mybluemix.net/login/callback/postResponse" index="0"/>
+
+  </SPSSODescriptor>
+
+</EntityDescriptor>
+
